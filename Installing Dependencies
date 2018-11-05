@@ -1,0 +1,7 @@
+After installing an application, (eg. sudo dpkg -i google-chrome-stable....), you might get an error saying certain dependencies are not installed.
+
+Run this command:
+
+$sudo apt-get install -f
+
+It will install those dependencies for you
