@@ -1,0 +1,7 @@
+bz2
+
+$ tar xvjf file.tar.bz2
+
+gz
+
+$ tar xvzf file.tar.gz
