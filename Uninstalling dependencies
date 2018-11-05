@@ -1,0 +1,5 @@
+eg. sudo apt-get purge google-chrome-stable
+
+Removes custom settings such as plugins
+
+$rm ~/.config/google-chrome/ -rf
