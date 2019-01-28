@@ -8,15 +8,31 @@ $whoami
 
 To show who you are (as a user), use the following:
 $id
+# This is useful when you need to confirm whether privilege escalation worked or not and if you're admin or a regular user
 
 To display information about a user, use the following:
 $finger [user name]
 
 To show kernel information, use the following:
 $uname -a
+# Extremely useful command
 
 To show CPU information, use the following:
 $cat /proc/cpuinfo
 
 To show memory information, use the following:
 $cat /proc/meminfo
+
+To show disk usage, use the following:
+$df
+# Tiny but very useful command
+
+To show memory and swap usage, use the following:
+$free
+
+To search all of the commands that were previously executed, use the
+following:
+$history
+
+To detect the GPU model, use the following:
+$lspci | grep VGA
