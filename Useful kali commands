@@ -1,0 +1,22 @@
+To show the current host uptime, use the following:
+$uptime
+
+To show who's logged in, use the following:
+$w
+OR
+$whoami
+
+To show who you are (as a user), use the following:
+$id
+
+To display information about a user, use the following:
+$finger [user name]
+
+To show kernel information, use the following:
+$uname -a
+
+To show CPU information, use the following:
+$cat /proc/cpuinfo
+
+To show memory information, use the following:
+$cat /proc/meminfo
